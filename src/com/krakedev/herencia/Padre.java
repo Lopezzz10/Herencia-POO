@@ -9,6 +9,10 @@ public class Padre {
 //		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + "]";
 //	}
 	
+	public Padre () {
+		System.out.println("Soy el constructor vacio del padre");
+	}
+	
 	@Override //Ayuda a revisar que el metodo esta bien al momento de sobreescribir
 	public String toString() {
 		return "Hola";
