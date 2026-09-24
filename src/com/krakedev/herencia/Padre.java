@@ -4,9 +4,14 @@ public class Padre {
 	private int defectos;
 	private int virtudes;
 	
-	@Override
-	public String toString() {
-		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + "]";
+//	@Override
+//	public String toString() {
+//		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + "]";
+//	}
+	
+	@Override //Ayuda a revisar que el metodo esta bien al momento de sobreescribir
+	public String tostring() {
+		return "Hola";
 	}
 	
 	public int getDefectos() {
