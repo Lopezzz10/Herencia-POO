@@ -4,8 +4,9 @@ public class Padre {
 	private int defectos;
 	private int virtudes;
 	
+	@Override
 	public String toString() {
-		return "Defectos: "+ defectos +  " Virtudes: "+ virtudes;
+		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + "]";
 	}
 	
 	public int getDefectos() {
