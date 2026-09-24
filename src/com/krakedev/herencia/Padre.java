@@ -10,7 +10,7 @@ public class Padre {
 //	}
 	
 	@Override //Ayuda a revisar que el metodo esta bien al momento de sobreescribir
-	public String tostring() {
+	public String toString() {
 		return "Hola";
 	}
 	
