@@ -7,8 +7,5 @@ public class TestToString {
 	public static void main(String[] args) {
 		Padre p = new Padre();
 		System.out.println(p);
-		p.toString();
-		System.out.println(p.toString());
 	}
-
 }

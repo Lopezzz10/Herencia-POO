@@ -3,6 +3,11 @@ package com.krakedev.herencia;
 public class Padre {
 	private int defectos;
 	private int virtudes;
+	
+	public String toString() {
+		return "Defectos: "+ defectos +  " Virtudes: "+ virtudes;
+	}
+	
 	public int getDefectos() {
 		return defectos;
 	}
