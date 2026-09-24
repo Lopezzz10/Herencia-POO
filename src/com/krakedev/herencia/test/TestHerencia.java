@@ -8,7 +8,6 @@ public class TestHerencia {
 		Hija hija = new Hija();
 		hija.setVirtudes(5);
 		hija.setDefectos(2);
-		System.out.println("virtudes:"+ hija.getVirtudes());
-		System.out.println("defectos:"+ hija.getDefectos());
+		hija.imprimir();
 	}
 }

@@ -15,5 +15,8 @@ public class Padre {
 	public void setVirtudes(int virtudes) {
 		this.virtudes = virtudes;
 	}
-	
+	public void imprimir() {
+		System.out.println("virtudes:"+ virtudes);
+		System.out.println("defectos:"+ defectos);
+	}
 }
