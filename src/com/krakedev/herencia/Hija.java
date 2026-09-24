@@ -7,8 +7,14 @@ public class Hija extends Padre {
 		
 	}
 
-	@Override
-	public String toString() {
-		return "Defectos: "+ getDefectos()+" Virtudes:  "+ getVirtudes();
-	}
+//	@Override
+//	public String toString() {
+//		return "Defectos: "+ getDefectos()+" Virtudes:  "+ getVirtudes();
+//	}
+	
+//	@Override
+//	public String toString() {
+//		return "Defectos: "+ super.defectos() + " Virtudes: "+ super.virtudes;
+//	}
+	
 }
