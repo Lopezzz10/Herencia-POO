@@ -9,8 +9,13 @@ public class Padre {
 //		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + "]";
 //	}
 	
-	public Padre () {
-		System.out.println("Soy el constructor vacio del padre");
+//	public Padre () {
+//		System.out.println("Soy el constructor vacio del padre");
+//	}
+	
+	public Padre(int virtudes, int defectos) {
+		this.defectos = defectos;
+		this.virtudes =  virtudes;
 	}
 	
 	@Override //Ayuda a revisar que el metodo esta bien al momento de sobreescribir

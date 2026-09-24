@@ -5,6 +5,7 @@ import com.krakedev.herencia.Hija;
 public class TestConstructor {
 
 	public static void main(String[] args) {
-		new Hija();
+		Hija h = new Hija(2,3);
+		System.out.println(h);
 	}
 }
