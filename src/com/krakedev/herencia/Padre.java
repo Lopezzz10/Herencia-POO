@@ -19,4 +19,7 @@ public class Padre {
 		System.out.println("virtudes:"+ virtudes);
 		System.out.println("defectos:"+ defectos);
 	}
+	private void guardarSecreto() {
+		System.out.println("Esto no se hereda");
+	}
 }
